@@ -96,7 +96,7 @@ body{
 
   font-style: normal;
   background-color: black;
-  width: 300px;
+  width:400px;
   height: 200px;
   margin-top: 25px;
   margin-left: 25px;
@@ -112,7 +112,7 @@ body{
   background-color: black;
   color: white;
   border-color: black;
-  width: 280px;
+  width: 380px;
   text-decoration: none;
   margin-top: 10px;
   margin-left: 10px;
@@ -120,12 +120,18 @@ body{
 
 }
 
+
+
 #mainButton:hover{
   background-color: white;
   color: black;
 
 }
+#mainButton:active{
 
+  background-color: peru;
+  color:white;
+}
 
 
 .image{
