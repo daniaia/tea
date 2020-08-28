@@ -15,6 +15,8 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# gives the path to the folder that contains manage.py
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -24,6 +26,7 @@ SECRET_KEY = 'il2i(0q*zr+-$g%(-r9ci1s4bb@1(hu=u_rh8m&ev-w2pk!4u%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# turn off debug when you are actually putting your website out in teh public
 
 ALLOWED_HOSTS = []
 
