@@ -1,46 +1,104 @@
 @media background {
 
 }
+@font-face {
+  font-family: Source Code Pro;
+  src: url("Source Code Pro.ttf");
+}
 
-/* body{
-  background-image: url("blurBackground.jpeg");
+::selection{
+  background: white;
+  color: black;
+}
+body{
+
+  /* background-image: url("blurBackground.jpeg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: auto; */
 
-} */
+  background-color: navajowhite;
+
+
+
+
+}
 .topA{
+  background-color: peru;
   display: flex;
   justify-content: center;
 }
 
+
 .topB{
+  background-color: darksalmon;
+  display: flex;
+  justify-content: center;
+
+}
+
+.topC{
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
-  padding: 20px;
+
 }
+
+
 .logoTitle{
 
-
-  width: 200px;
-  height: auto;
-  font-family: Arial;
+  font-family: Bernard MT, Arial;
   font-size: 28px;
-  font-weight: bold;
-  border-style: solid;
   text-align: center;
-  border-width: thick;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: 5px;
+  background-color: white
 
 
+}
+
+.logoTitle:hover{
+  color:darksalmon;
+  border-color: white;
+  background-color: black;
+
+}
+
+.logoTitle::selection{
+
+  color:darksalmon;
+
+}
+
+.logoTitle:active{
+
+  color:peru;
+}
+
+.announcement{
+
+  font-family: Source Code Pro, monospace;
+  font-size: 10px;
+  font-weight: 100;
+  padding: 10px;
+  font-weight: lighter;
+
+}
+.announcement:hover{
+
+  color: white;
 
 }
 
 .menu{
 
+
   font-style: normal;
   background-color: black;
   width: 300px;
-  height: 250px;
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 #mainButton{
@@ -48,7 +106,7 @@
   display: block;
   align-content: center;
   font-size: 20px;
-  font-family: Arial;
+  font-family: Source Code Pro, monospace;
   font-style: normal;
   background-color: black;
   color: white;
@@ -67,28 +125,88 @@
 
 }
 
-.body{
 
-
-  font-family: Arial;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-
-
-}
 
 .image{
 
-  padding-right: 10px;
   margin-left: 25px;
-  width: 200px;
+  margin-top: 25px;
+  border-style: bold;
+
+}
+.imageTwo{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+.imageThree{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
 
 }
 
+.imageFour{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+.imageFive{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+.imageSix{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+.imageSeven{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+.imageEight{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+.imageNine{
+
+  margin-left: 25px;
+  margin-top: 25px;
+  border-style: bold;
+}
+
 #image_properties{
-  width: 200px;
+
   height: 200px;
+
+
+}
+
+
+
+.body{
+
+
+  font-family: Source Code Pro;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 30px;
+
+  background-color: darksalmon;
+
+  padding: 10px;
+
 
 
 }
