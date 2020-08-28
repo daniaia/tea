@@ -7,8 +7,8 @@
 }
 
 ::selection{
-  background: white;
-  color: black;
+  background: indianred;
+  color: white;
 }
 body{
 
@@ -25,13 +25,16 @@ body{
 .topA{
   background-color: darksalmon;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  position: static;
 }
 
 
 .topB{
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 
 }
@@ -43,6 +46,24 @@ body{
 
 }
 
+.popup{
+
+  font-family: Source Code Pro;
+  font-weight: bolder;
+  background-color: Yellow;
+  color: indianred;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+
+
+}
+
+#anchor{
+
+  text-decoration: none;
+}
 
 .logoTitle{
 
@@ -52,7 +73,10 @@ body{
   font-weight: bolder;
   border-style: solid;
   border-width: 5px;
-  background-color: white
+  background-color: white;
+  color: black;
+
+
 
 
 }
@@ -209,7 +233,7 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 45px;
   margin-right: 30px;
 
   color: white;
@@ -218,5 +242,14 @@ body{
   padding: 10px;
 
 
+
+}
+
+.footer{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  margin-top: 20px;
 
 }
